@@ -8,6 +8,88 @@
   <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
-  
+  <header>
+    <img src="img/logo.png" alt="Logo shoes">
+    <nav>
+      <ul>
+        <li><a href="produtos.html">TODOS OS PRODUTOS</a></li>
+        <li><a href="colecoes.html">COLEÇÕES</a></li>
+        <li><a href="outlet.html">OUTLET</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+      <h2>Faça parte do nosso time</h2>
+      <form action="">
+        <label>
+          Nome
+          <input type="text" name="nome" id="nome">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" id="email">
+        </label>
+        <label>
+          Telefone
+          <input type="tel" name="telefone" id="telefone">
+        </label>
+        <label>
+          Departamentos
+          <select name="departamentos" id="departamentos">
+            <option selected disabled>Selecione o departamento</option>
+            <option value="v">Vendas</option>
+            <option value="c">Compras</option>
+            <option value="l">Logística</option>
+          </select>
+        </label>
+        <div>
+          Disponibilidade
+            <label>
+              <input type="checkbox" name="8h">
+              Integral (8h)
+            </label>
+            <label>
+              <input type="checkbox" name="4h">
+              Meio período (4h)
+            </label>
+            <label>
+              <input type="checkbox" name="free">
+              Freelancer
+            </label>
+        </div>
+
+        <div>
+          Qual a melhor forma para entrarmos em contato com você?
+          <label><input type="radio" value= "1" name="contato" id="contato_email">E-mail</label>
+          <label><input type="radio" value= "2" name="contato" id="contato__ligacao">Ligação</label>
+          <label><input type="radio" value= "3" name="contato" id="contato_wa">WhatsApp</label>
+        </div>
+
+        <label>
+          Mensagem
+          <textarea name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
+        </label>
+
+        <label>
+          Currículo
+          <input type="file" name="curriculo" id="curriculo">
+        </label>
+
+        <button type="submit">enviar</button>
+
+      </form>
+    </div>
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum adipisci deserunt at omnis, voluptas provident delectus inventore est corrupti libero suscipit magni dignissimos rerum doloremque. Laborum aut natus dolor.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magnam, tempora commodi placeat id, ea labore officia voluptatum quidem earum tempore. Voluptatum natus maiores consequuntur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tempore accusantium, sequi, laboriosam delectus quibusdam eos ut similique maxime labore culpa voluptatum! Quia aspernatur incidunt doloremque! Voluptas dolor dolores ab, eveniet odit perspiciatis saepe tempora rerum sit soluta, unde impedit quae tenetur nam quibusdam tempore beatae, debitis voluptates delectus at?</p>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
 </body>
 </html>
